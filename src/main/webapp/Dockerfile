@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /app
-COPY . /app
+COPY index /app
 RUN index
 CMD ["java","index]"
